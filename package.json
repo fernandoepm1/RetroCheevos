@@ -1,0 +1,27 @@
+{
+  "name": "ra-sets",
+  "version": "1.0.0",
+  "description": "RetroAchievement sets",
+  "author": "fernandoepm1",
+  "license": "MIT",
+  "scripts": {
+    "ps1-test": "cd src/ps1 && npx cruncheevos --help",
+    "build": "npx tsc",
+    "ps1-diff": "npx tsc && npx cruncheevos diff",
+    "diff-save": "npx tsc && npx cruncheevos diff-save",
+    "rich": "npx tsc && npx cruncheevos rich-save"
+  },
+  "type": "module",
+  "dependencies": {
+    "@cruncheevos/core": "^0.0.8",
+    "@cruncheevos/cli": "^0.0.8"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.3",
+    "@typescript-eslint/eslint-plugin": "^8.34.1",
+    "@typescript-eslint/parser": "^8.34.1",
+    "prettier": "^3.5.3",
+    "eslint": "^9.29.0",
+    "typescript": "^5.8.3"
+  }
+}

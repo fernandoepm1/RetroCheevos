@@ -31,9 +31,9 @@ Check for changes against RACache:
 npm run diff
 ```
 
-Save changes made in RACache:
+Check for changes and save changes made in RACache:
 ```shell
-npm run save
+npm run diff-save
 ```
 
 Check [@cruncheevos/cli](https://github.com/suXinjke/cruncheevos/tree/master/packages/cli) for the complete usage docs.
